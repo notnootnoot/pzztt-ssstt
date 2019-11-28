@@ -62,6 +62,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Easy Grab VR\Demo\Scripts\SVButtonSoundFX.cs" />
+    <Compile Include="Assets\Easy Grab VR\Demo\Scripts\SVLeverSoundFX.cs" />
+    <Compile Include="Assets\Easy Grab VR\Demo\Scripts\SVSliderSoundFX.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVButton.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVColliderUpdater.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVControllerInput.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVControllerManager.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVGlowIndicator.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVGrabbable.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVGrabHaptics.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVGripIndicator.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVLever.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVOutlineIndicator.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVSlider.cs" />
+    <Compile Include="Assets\Easy Grab VR\Scripts\SVUtilities.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -374,6 +389,7 @@
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\AvatarEyeLens.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
+    <None Include="Assets\Easy Grab VR\Shaders\SVOutlineShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Owner/Documents/GitHub/TestRepo/pzztt-ssstt/PZZTT  SSSTT/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

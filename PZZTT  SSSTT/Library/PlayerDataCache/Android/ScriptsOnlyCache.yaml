@@ -7,6 +7,11 @@ ScriptsOnlyBuild:
     - OvrAvatar
     - OvrAvatarLocalDriver
     - OvrAvatarSettings
+    - SVControllerInput
+    - SVGlowIndicator
+    - SVGrabbable
+    - SVLever
+    - SVLeverSoundFX
     Oculus.VR.Editor.dll:
     - OVRConfig
     Oculus.VR.dll:
@@ -39,11 +44,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 59
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -81,6 +90,16 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11836}
     - Class: 114
       Script: {instanceID: 11924}
+    - Class: 114
+      Script: {instanceID: 18480}
+    - Class: 114
+      Script: {instanceID: 18500}
+    - Class: 114
+      Script: {instanceID: 18506}
+    - Class: 114
+      Script: {instanceID: 18508}
+    - Class: 114
+      Script: {instanceID: 18510}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -88,6 +107,8 @@ ScriptsOnlyBuild:
     - Class: 136
       Script: {instanceID: 0}
     - Class: 137
+      Script: {instanceID: 0}
+    - Class: 138
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1432,6 +1453,78 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 611443e2a763d7f891e381c6a9ed8a51
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVLever
+  - hash:
+      serializedVersion: 2
+      Hash: fbb16b3b2c310903ec56ec9b009ed796
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVButton
+  - hash:
+      serializedVersion: 2
+      Hash: 85af9a2367da2c6ce09bf448bd7d9ae1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 3190a3b3c3ebe1cf3584442dbca2718e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVButtonSoundFX
+  - hash:
+      serializedVersion: 2
+      Hash: 54b74c2e959b076d88298186c5a99c57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVGrabHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: 743148ac783e15d13eab80bc91289ec7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVColliderUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 8d6650a42ebe67c9cc127ab2284cecb3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVSliderSoundFX
+  - hash:
+      serializedVersion: 2
+      Hash: 6d669fcafa64128da1702668e5c9a44b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVGlowIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: a0c0a6cdf72310a50a60f1186c6e9485
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVOutlineIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: 9a791e5b3b828ad5178b5ea6ce6042c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVControllerInput
+  - hash:
+      serializedVersion: 2
+      Hash: b5a41ffc16486f147774a4e98060f2e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 50aad0610a8418e1059d162fc2bd7d28
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVLeverSoundFX
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
