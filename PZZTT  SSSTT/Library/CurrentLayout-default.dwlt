@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 685, y: 494}
   m_MaxSize: {x: 14006, y: 14044}
   vertical: 0
-  controlID: 107
+  controlID: 58
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -75,7 +75,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 58
+  controlID: 59
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 59
+  controlID: 60
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,10 +295,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1170.2223
-    y: 81.77778
-    width: 538
-    height: 849
+    x: 1165.3334
+    y: 78.666664
+    width: 534
+    height: 837
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -321,10 +321,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1170.2223
-    y: 79.111115
-    width: 538
-    height: 849
+    x: 1165.3334
+    y: 78.666664
+    width: 534
+    height: 837
   m_ViewDataDictionary: {fileID: 0}
   m_PosLeft: {x: 0, y: 0}
   m_PosRight: {x: 0, y: 0}
@@ -395,20 +395,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Resources
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Owner\Documents\GitHub\TestRepo\pzztt-ssstt\PZZTT  SSSTT
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a310000
-    m_LastClickedID: 12586
-    m_ExpandedIDs: 000000002a31000000ca9a3b
+    m_SelectedIDs: ea370000
+    m_LastClickedID: 14314
+    m_ExpandedIDs: 000000002e310000de5400007c9000008490000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -436,7 +436,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a310000
+    m_ExpandedIDs: 000000002e310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -561,7 +561,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 38e9ffff6ee9ffff44ebffff3cfbffffbc5a0000505b0000545b0000f65b00007a5c0000945c0000985c0000665d0000065e0000
+      m_ExpandedIDs: bc3efdfff03efdfff83efdff3e42fdff7242fdff7a42fdff2c48fdff6048fdff6848fdffd049fdff064afdffdc4bfdff8c5cfdffc05cfdffc85cfdff8a67fdffc067fdff9669fdffa69efdff8c9ffdff78a5fdffc0c0fdffccc0fdff00e3fdfff4edfdff2aeefdff00f0fdff62f4fdff74fdfdff961bfefff61bfeff321cfeffc61cfeffcc1cfeff1e25feff6c2afeffa62afeffb02afeff7066feffa666feff7c68feff10c5ffff7cddffff96ddffff9addffffccddffffceddffffdcddffff18deffff5edeffff82deffffb2deffff6afbffffdc500000145100007e5100008a510000d051000080520000a8520000c0520000cc530000e8530000865e0000be5e0000305f0000b65f0000266000007e6000000e61000072610000806f0000aa6f000006700000867000009e700000de70000030710000347100004c7100009e710000e67100003a720000e072000026730000c2b00000c6b00000dab000007cb10000d8b10000e6b1000076b2000006bd00004ecf000052cf000066cf000008d0000072d0000002d1000018dd000012de000074e9000078e900008ce900002eea000098ea000028eb0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -621,13 +621,13 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.07192221, y: 1.2291613, z: 0.6005308}
+    m_Target: {x: 0.5963207, y: -0.32474566, z: 7.3038244}
     speed: 2
-    m_Value: {x: 0.07192221, y: 1.2291613, z: 0.6005308}
+    m_Value: {x: 0.5963207, y: -0.32474566, z: 7.3038244}
   m_RenderMode: 0
   m_CameraMode:
-    drawMode: 0
-    name: Shaded
+    drawMode: 2
+    name: Shaded Wireframe
     section: Shading Mode
   m_ValidateTrueMetals: 0
   m_DoValidateTrueMetals: 0
@@ -652,13 +652,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.076452434, y: -0.0860455, z: 0.0065952963, w: -0.99336743}
+    m_Target: {x: 0.12862743, y: -0.016361339, z: 0.0021241154, w: 0.9915691}
     speed: 2
-    m_Value: {x: -0.076449715, y: -0.08604245, z: 0.006595062, w: -0.99333215}
+    m_Value: {x: 0.12863153, y: -0.0133863855, z: 0.001738201, w: 0.9916006}
   m_Size:
-    m_Target: 1.0146518
+    m_Target: 10.385343
     speed: 2
-    m_Value: 1.3146517
+    m_Value: 9.938127
   m_Ortho:
     m_Target: 0
     speed: 2

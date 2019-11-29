@@ -48,19 +48,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
     - Class: 89
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -69,44 +61,36 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9814}
     - Class: 114
-      Script: {instanceID: 10004}
+      Script: {instanceID: 9870}
     - Class: 114
-      Script: {instanceID: 10316}
+      Script: {instanceID: 10008}
     - Class: 114
-      Script: {instanceID: 10516}
+      Script: {instanceID: 10320}
     - Class: 114
-      Script: {instanceID: 10560}
+      Script: {instanceID: 10522}
     - Class: 114
-      Script: {instanceID: 10724}
+      Script: {instanceID: 10566}
     - Class: 114
-      Script: {instanceID: 10966}
+      Script: {instanceID: 10734}
     - Class: 114
-      Script: {instanceID: 11098}
+      Script: {instanceID: 11440}
     - Class: 114
-      Script: {instanceID: 11432}
+      Script: {instanceID: 11456}
     - Class: 114
-      Script: {instanceID: 11836}
+      Script: {instanceID: 11864}
     - Class: 114
-      Script: {instanceID: 11924}
+      Script: {instanceID: 11906}
     - Class: 114
-      Script: {instanceID: 18480}
+      Script: {instanceID: 11954}
     - Class: 114
-      Script: {instanceID: 18500}
+      Script: {instanceID: 12176}
     - Class: 114
-      Script: {instanceID: 18506}
-    - Class: 114
-      Script: {instanceID: 18508}
-    - Class: 114
-      Script: {instanceID: 18510}
+      Script: {instanceID: 12358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
-      Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 137
       Script: {instanceID: 0}
     - Class: 138
       Script: {instanceID: 0}
@@ -133,6 +117,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SocialPlatformManager
+  - hash:
+      serializedVersion: 2
+      Hash: 611443e2a763d7f891e381c6a9ed8a51
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVLever
   - hash:
       serializedVersion: 2
       Hash: 3c08375166df118bd1801438fc36b92f
@@ -585,6 +575,12 @@ ScriptsOnlyBuild:
     className: ONSPProfiler
   - hash:
       serializedVersion: 2
+      Hash: fbb16b3b2c310903ec56ec9b009ed796
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVButton
+  - hash:
+      serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -867,10 +863,22 @@ ScriptsOnlyBuild:
     className: OVRCubemapCapture
   - hash:
       serializedVersion: 2
+      Hash: 85af9a2367da2c6ce09bf448bd7d9ae1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVSlider
+  - hash:
+      serializedVersion: 2
       Hash: e1ca8f8609ae109158b50ac13a67fa0b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportAimVisualLaser
+  - hash:
+      serializedVersion: 2
+      Hash: 3190a3b3c3ebe1cf3584442dbca2718e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVButtonSoundFX
   - hash:
       serializedVersion: 2
       Hash: c62775f7279ea30b4981a8322d28585a
@@ -901,6 +909,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MoviePlayerSample
+  - hash:
+      serializedVersion: 2
+      Hash: 54b74c2e959b076d88298186c5a99c57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVGrabHaptics
   - hash:
       serializedVersion: 2
       Hash: aaa7e7fd415114b3b243b3a618492d76
@@ -957,6 +971,12 @@ ScriptsOnlyBuild:
     className: TeleportOrientationHandler360
   - hash:
       serializedVersion: 2
+      Hash: 743148ac783e15d13eab80bc91289ec7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVColliderUpdater
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1005,6 +1025,12 @@ ScriptsOnlyBuild:
     className: EyeCamera
   - hash:
       serializedVersion: 2
+      Hash: 8d6650a42ebe67c9cc127ab2284cecb3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVSliderSoundFX
+  - hash:
+      serializedVersion: 2
       Hash: a3b5c7ace69ce05da7ac8052564f6656
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1045,6 +1071,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 6d669fcafa64128da1702668e5c9a44b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVGlowIndicator
   - hash:
       serializedVersion: 2
       Hash: 6eec73ef93bfe43ef513041177529a3d
@@ -1167,6 +1199,12 @@ ScriptsOnlyBuild:
     className: OvrAvatarMaterialManager
   - hash:
       serializedVersion: 2
+      Hash: a0c0a6cdf72310a50a60f1186c6e9485
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVOutlineIndicator
+  - hash:
+      serializedVersion: 2
       Hash: 349fc863c5f9c0b3f7471af2e318712a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1251,6 +1289,12 @@ ScriptsOnlyBuild:
     className: OvrAvatarSkinnedMeshRenderComponent
   - hash:
       serializedVersion: 2
+      Hash: 9a791e5b3b828ad5178b5ea6ce6042c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVControllerInput
+  - hash:
+      serializedVersion: 2
       Hash: 20acf3c1667c3fcaf430a03c1274c6e5
     assemblyName: Assembly-CSharp.dll
     namespaceName: Oculus.Platform.Samples.VrBoardGame
@@ -1327,6 +1371,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: b5a41ffc16486f147774a4e98060f2e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVGrabbable
   - hash:
       serializedVersion: 2
       Hash: c1313d723d19b50c00b55c8ce726b990
@@ -1431,6 +1481,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 50aad0610a8418e1059d162fc2bd7d28
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SVLeverSoundFX
+  - hash:
+      serializedVersion: 2
       Hash: 8cf111447f1f4754264a4de62c3f57df
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1453,78 +1509,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 611443e2a763d7f891e381c6a9ed8a51
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVLever
-  - hash:
-      serializedVersion: 2
-      Hash: fbb16b3b2c310903ec56ec9b009ed796
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVButton
-  - hash:
-      serializedVersion: 2
-      Hash: 85af9a2367da2c6ce09bf448bd7d9ae1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVSlider
-  - hash:
-      serializedVersion: 2
-      Hash: 3190a3b3c3ebe1cf3584442dbca2718e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVButtonSoundFX
-  - hash:
-      serializedVersion: 2
-      Hash: 54b74c2e959b076d88298186c5a99c57
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVGrabHaptics
-  - hash:
-      serializedVersion: 2
-      Hash: 743148ac783e15d13eab80bc91289ec7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVColliderUpdater
-  - hash:
-      serializedVersion: 2
-      Hash: 8d6650a42ebe67c9cc127ab2284cecb3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVSliderSoundFX
-  - hash:
-      serializedVersion: 2
-      Hash: 6d669fcafa64128da1702668e5c9a44b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVGlowIndicator
-  - hash:
-      serializedVersion: 2
-      Hash: a0c0a6cdf72310a50a60f1186c6e9485
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVOutlineIndicator
-  - hash:
-      serializedVersion: 2
-      Hash: 9a791e5b3b828ad5178b5ea6ce6042c2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVControllerInput
-  - hash:
-      serializedVersion: 2
-      Hash: b5a41ffc16486f147774a4e98060f2e6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVGrabbable
-  - hash:
-      serializedVersion: 2
-      Hash: 50aad0610a8418e1059d162fc2bd7d28
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SVLeverSoundFX
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

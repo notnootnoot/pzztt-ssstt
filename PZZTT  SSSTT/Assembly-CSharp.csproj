@@ -367,6 +367,7 @@
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_DiffBump.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Resources\Multiview Stereo.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
+    <None Include="Assets\Textures\ame_water\ame_water.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_Transparent.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_Loader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_02.shader" />
