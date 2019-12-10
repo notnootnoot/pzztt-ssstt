@@ -1,17 +1,28 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ChangScene3
+    - ChangeScene2
+    - ChangeScene4
+    - ChangeScene5
+    - ChangeScene6
+    - DetectButtonCollision1_2
+    - DetectButtonCollision1_3
+    - DetectButtonCollision2_2
+    - DetectButtonCollision2_3
+    - ForestSceneShow
+    - ForestToggle
+    - MoveTop
     - ONSPSettings
-    - OVRTouchSample.Hand
-    - OVRTouchSample.HandPose
     - OvrAvatar
     - OvrAvatarLocalDriver
     - OvrAvatarSettings
-    - SVControllerInput
-    - SVGlowIndicator
-    - SVGrabbable
-    - SVLever
-    - SVLeverSoundFX
+    - ShowSpaceScene
+    - SpaceToggle
+    - changeScene
+    - detectButtonCollision
+    - detectButtonCollision2
+    - moveWithLever
     Oculus.VR.Editor.dll:
     - OVRConfig
     Oculus.VR.dll:
@@ -50,6 +61,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
     - Class: 89
@@ -61,38 +74,68 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9814}
+      Script: {instanceID: 9894}
     - Class: 114
-      Script: {instanceID: 9870}
+      Script: {instanceID: 10022}
     - Class: 114
-      Script: {instanceID: 10008}
+      Script: {instanceID: 10036}
     - Class: 114
-      Script: {instanceID: 10320}
+      Script: {instanceID: 10096}
     - Class: 114
-      Script: {instanceID: 10522}
+      Script: {instanceID: 10198}
     - Class: 114
-      Script: {instanceID: 10566}
+      Script: {instanceID: 10282}
     - Class: 114
-      Script: {instanceID: 10734}
+      Script: {instanceID: 10354}
     - Class: 114
-      Script: {instanceID: 11440}
+      Script: {instanceID: 10380}
     - Class: 114
-      Script: {instanceID: 11456}
+      Script: {instanceID: 10558}
     - Class: 114
-      Script: {instanceID: 11864}
+      Script: {instanceID: 10602}
     - Class: 114
-      Script: {instanceID: 11906}
+      Script: {instanceID: 10770}
     - Class: 114
-      Script: {instanceID: 11954}
+      Script: {instanceID: 10828}
     - Class: 114
-      Script: {instanceID: 12176}
+      Script: {instanceID: 10990}
     - Class: 114
-      Script: {instanceID: 12358}
+      Script: {instanceID: 11020}
+    - Class: 114
+      Script: {instanceID: 11030}
+    - Class: 114
+      Script: {instanceID: 11100}
+    - Class: 114
+      Script: {instanceID: 11338}
+    - Class: 114
+      Script: {instanceID: 11458}
+    - Class: 114
+      Script: {instanceID: 11506}
+    - Class: 114
+      Script: {instanceID: 11796}
+    - Class: 114
+      Script: {instanceID: 11916}
+    - Class: 114
+      Script: {instanceID: 12006}
+    - Class: 114
+      Script: {instanceID: 12108}
+    - Class: 114
+      Script: {instanceID: 12280}
+    - Class: 114
+      Script: {instanceID: 12286}
+    - Class: 114
+      Script: {instanceID: 12360}
+    - Class: 114
+      Script: {instanceID: 12372}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 122
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
-    - Class: 138
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 145
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -221,6 +264,12 @@ ScriptsOnlyBuild:
     className: OVRDebugHeadController
   - hash:
       serializedVersion: 2
+      Hash: eaf2043b1c95ec7edf5d5e090e36e172
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangScene3
+  - hash:
+      serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -287,6 +336,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: eaf2043b1c95ec7edf5d5e090e36e172
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeScene2
+  - hash:
+      serializedVersion: 2
       Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -341,6 +396,12 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 1756f6b724a257f41b5be4cee87343af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DetectButtonCollision2_3
+  - hash:
+      serializedVersion: 2
       Hash: c51d2a1569bb404a12e837742887b609
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -363,6 +424,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRAudioSourceTest
+  - hash:
+      serializedVersion: 2
+      Hash: 1756f6b724a257f41b5be4cee87343af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DetectButtonCollision1_3
   - hash:
       serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
@@ -429,6 +496,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 1756f6b724a257f41b5be4cee87343af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: detectButtonCollision
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -671,6 +744,12 @@ ScriptsOnlyBuild:
     className: DetectBasket
   - hash:
       serializedVersion: 2
+      Hash: 183f3a1dae26c903c6690758e8fe5967
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: moveWithLever
+  - hash:
+      serializedVersion: 2
       Hash: bb416e9a49fa1056a851e29bfaeebe51
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -737,6 +816,12 @@ ScriptsOnlyBuild:
     className: P2PNetworkBall
   - hash:
       serializedVersion: 2
+      Hash: eaf2043b1c95ec7edf5d5e090e36e172
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeScene6
+  - hash:
+      serializedVersion: 2
       Hash: 22dc216204f0e65ce2161bd7b6ecf06b
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -755,10 +840,22 @@ ScriptsOnlyBuild:
     className: HandPose
   - hash:
       serializedVersion: 2
+      Hash: 86fbc2a1a8a3298f26bb70198b41b0ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ForestSceneShow
+  - hash:
+      serializedVersion: 2
       Hash: f8bdc5302f6dd3ca0d6feb313e913f0a
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: OVROverlaySample
+  - hash:
+      serializedVersion: 2
+      Hash: 1756f6b724a257f41b5be4cee87343af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DetectButtonCollision1_2
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -801,6 +898,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRSceneLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 1756f6b724a257f41b5be4cee87343af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: detectButtonCollision2
   - hash:
       serializedVersion: 2
       Hash: a59e183d3f86325b6f381a8fc91f951c
@@ -971,6 +1074,12 @@ ScriptsOnlyBuild:
     className: TeleportOrientationHandler360
   - hash:
       serializedVersion: 2
+      Hash: 73e13a8a87a45e02042de85aa660d86b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ForestToggle
+  - hash:
+      serializedVersion: 2
       Hash: 743148ac783e15d13eab80bc91289ec7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1047,6 +1156,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Oculus.Platform
     className: PlatformSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowSpaceScene
   - hash:
       serializedVersion: 2
       Hash: a4ab9532686dbd13bc2c5bb58a3781ce
@@ -1223,6 +1338,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 1756f6b724a257f41b5be4cee87343af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DetectButtonCollision2_2
+  - hash:
+      serializedVersion: 2
       Hash: bbf6c8bbcb3097b51034aeb2a5b7693a
     assemblyName: Assembly-CSharp.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
@@ -1349,6 +1470,12 @@ ScriptsOnlyBuild:
     className: VREyeRaycaster
   - hash:
       serializedVersion: 2
+      Hash: eaf2043b1c95ec7edf5d5e090e36e172
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeScene4
+  - hash:
+      serializedVersion: 2
       Hash: 0206d628903d330ab486ebffa9dc4292
     assemblyName: Assembly-CSharp.dll
     namespaceName: OVR
@@ -1403,10 +1530,22 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: da7b3c5175d45778b86caf53254d6b3b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveTop
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: eaf2043b1c95ec7edf5d5e090e36e172
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: changeScene
   - hash:
       serializedVersion: 2
       Hash: 2c8713480afc658528751d731eed8a21
@@ -1439,6 +1578,12 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: b3d9ffcf935ba8ae9d420f159679d9d9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpaceToggle
+  - hash:
+      serializedVersion: 2
       Hash: c3bd598ebf26a1734f4e48c8dfe999af
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1449,6 +1594,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: eaf2043b1c95ec7edf5d5e090e36e172
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeScene5
   - hash:
       serializedVersion: 2
       Hash: aa88ae22474df55295327e4ee99e5a24
@@ -1512,4 +1663,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Owner/Documents/GitHub/TestRepo/pzztt-ssstt/PZZTT  SSSTT/pzzttssstt.apk
+  playerPath: D:/OCAD/OCAD/Atelier_1/Mod. 3_Max/pzztt-ssstt/PZZTT  SSSTT/pzzttssstt2.apk
