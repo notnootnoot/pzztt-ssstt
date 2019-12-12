@@ -1926,7 +1926,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4282024844
-  m_Size: 12
+  m_Size: 0.125
 --- !u!1 &749557995
 GameObject:
   m_ObjectHideFlags: 0
@@ -3402,16 +3402,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blinds - Bottom Side (1)
       objectReference: {fileID: 0}
-    - target: {fileID: -8013144275059048674, guid: 1d0752c05a11e024f923c5018f17fb67,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.085
-      objectReference: {fileID: 0}
-    - target: {fileID: -8013144275059048674, guid: 1d0752c05a11e024f923c5018f17fb67,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.002
-      objectReference: {fileID: 0}
     - target: {fileID: -6828873305685503943, guid: 1d0752c05a11e024f923c5018f17fb67,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3471,6 +3461,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8013144275059048674, guid: 1d0752c05a11e024f923c5018f17fb67,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.085
+      objectReference: {fileID: 0}
+    - target: {fileID: -8013144275059048674, guid: 1d0752c05a11e024f923c5018f17fb67,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d0752c05a11e024f923c5018f17fb67, type: 3}
